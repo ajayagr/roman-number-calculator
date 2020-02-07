@@ -1,0 +1,62 @@
+.Button {
+  height: 2.5em;
+  width: 16vw;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1em;
+  background-color: #e0e1e6;
+  color: #888888;
+  outline: 1px solid #888888;
+  flex-grow: 1;
+}
+
+.Button:active{
+transform: translateY(4px);
+}
+
+.Button:hover {
+  transform: scale(1.1);
+  color: black;
+  font-weight: bold;
+  background-color: #AAA;
+  display:block;
+}
+
+.Button:hover .Value {
+  display: block;
+}
+
+.Operator {
+  background-color: #fe9241;
+  color: #ffffff;
+}
+
+.Button:disabled{
+  cursor: not-allowed;
+}
+
+.ClearBtn {
+  background-color: #c5c3cd;
+  color: #000000;
+}
+
+.BackSpace{
+  background-color: #c5c3cd;
+}
+
+.Value{
+  display:none;
+}
+
+@media(min-width:500px){
+  .Button{
+    font-size: 1.4em;
+  }
+}
+
+@media(min-height: 600px){
+  .Button{
+    height:4em;
+  }
+}

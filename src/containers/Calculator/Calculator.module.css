@@ -1,0 +1,26 @@
+.Calculator {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display:table;
+  }
+
+.Calculator .Row {
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+  }
+
+.Calculator .Column {
+    width: 80vw;
+    display: flex; 
+    flex-flow: row;
+  }
+
+.Calculator .Keys{
+  width:80%;
+} 
+
+.Calculator .Operators{
+  width:20%;
+}
