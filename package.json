@@ -1,5 +1,5 @@
 {
-  "name": "roman-numeral-calculator"
+  "name": "roman-numeral-calculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
